@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
+    <link href="PageConfig.css" rel="stylesheet" type="text/css" />
+    <script src="Kahoot.js" defer></script>
+
+    
+</head>
+
+
+<body class="bodyPageConfig">
+
+    <header class="TitreConfig">
+        <h1>Configuration</h1>
+    </header>
+
+        <div class="container">
+           
+            <div class="BoiteQuestion">
+                    <input type="text" id="Question" name="question" required
+                            minlength="4" maxlength="8" size="10" placeholder="QUESTION">
+            </div>
+
+            <div class="BoitesReponses">
+               
+                <div class="Ensemble">
+                        <input type="checkbox" id="CheckP" name="checkbox" value="BonneReponse">
+                            <label for="Check"><input type="text" id="Reponse" name="name" required
+                                    minlength="4" maxlength="8" size="10" placeholder="REPONSE 1"></label>
+                </div>     
+                    
+                <div class="Ensemble">
+                        <input type="checkbox" id="Check" name="checkbox" value="BonneReponse">
+                            <label for="Check"><input type="text" id="Reponse" name="name" required
+                                    minlength="4" maxlength="8" size="10" placeholder="REPONSE 2"></label>
+                </div>
+
+                <div class="Ensemble">
+                        <input type="checkbox" id="CheckP" name="checkbox" value="BonneReponse">
+                            <label for="Check"><input type="text" id="Reponse" name="name" required
+                                    minlength="4" maxlength="8" size="10" placeholder="REPONSE 3"></label>
+                </div>    
+                    
+                <div class="Ensemble">
+                        <input type="checkbox" id="Check" name="checkbox" value="BonneReponse">
+                            <label for="Check"><input type="text" id="Reponse" name="name" required
+                                    minlength="4" maxlength="8" size="10" placeholder="REPONSE 4"></label>
+                </div>
+
+            </div>    
+                    
+                    
+                                <div class="ZoneFIN">
+                                    <a href="HostInterface.html"><button class="button FIN">FIN</button></a>
+                                    <a href="Ajouter.html"><button class="button Ajout" type="submit" onclick="saveQuestion()" onclick="saveReponse()" onclick="saveBonneReponse()">AJOUTER</button></a>
+                                </div>
+
+        </div>
+
+
+    
+</body>
+
+</html>
